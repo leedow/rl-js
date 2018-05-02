@@ -1,0 +1,33 @@
+{
+  "name": "rl-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev/main.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedow/rl-js.git"
+  },
+  "keywords": [
+    "QLearning",
+    "Javascript",
+    "Reiforcement Learning"
+  ],
+  "author": "Leedow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leedow/rl-js/issues"
+  },
+  "homepage": "https://github.com/leedow/rl-js#readme",
+  "dependencies": {
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack-cli": "^2.0.15"
+  }
+}
